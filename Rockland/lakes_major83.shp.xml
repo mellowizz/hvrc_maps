@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Rockland County Planning Department</origin>
+				<pubdate>20000401</pubdate>
+				<title Sync="TRUE">lakes_major83</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">lakes_major83</ftname><onlink Sync="TRUE">\\00123FDD841E\C$\GIS\Shared\Environment\Lakes\lakes_major83.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Major Lakes</abstract>
+			<purpose>Environmental planning and monitoring of lakes</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20000401</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-74.215826</westbc>
+				<eastbc Sync="TRUE">-73.915181</eastbc>
+				<northbc Sync="TRUE">41.235124</northbc>
+				<southbc Sync="TRUE">41.037246</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">570513.161618</leftbc><rightbc Sync="TRUE">652966.818526</rightbc><bottombc Sync="TRUE">803303.049043</bottombc><topbc Sync="TRUE">874985.483926</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekey>Major Lakes</themekey>
+				<themekey>Lakes</themekey><themekey>Water</themekey></theme>
+			<place><placekey>Rockland County</placekey><placekey>New York</placekey></place></keywords>
+		<accconst>To be used by authorized personnel only</accconst>
+		<useconst>To be used by authorized personnel only</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Douglas J. Schuetz</cntper>
+					<cntorg>Rockland County Planning Department</cntorg>
+				</cntperp>
+				<cntpos>GIS Director</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>50 Sanatorium Rd; Bldg T</address>
+					<address>Yeager Health Center</address>
+					<city>Pomona</city>
+					<state>NY</state>
+					<postal>10970</postal>
+				</cntaddr>
+				<cntvoice>845.364.3434</cntvoice>
+				<cntfax>845.364.3435</cntfax>
+				<cntemail>schuetzd@co.rockland.ny.us</cntemail>
+				<hours>9-5</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+		<natvform Sync="TRUE">Shapefile</natvform><datacred>Rockland County Planning Department</datacred></idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="lakes_major83">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">12</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="lakes_major83"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">12</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999900</sfctrmer><longcm Sync="TRUE">-74.500000</longcm><latprjo Sync="TRUE">38.833333</latprjo><feast Sync="TRUE">492125.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_East_FIPS_3101_Feet</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="lakes_major83">
+			<enttyp>
+				<enttypl Sync="TRUE">lakes_major83</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">12</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">AREA</attrlabl><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">18</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>Square footage</attrdef></attr><attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">18</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>Perimeter of lake</attrdef></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><attrdef>Name of Lake</attrdef></attr><attr><attrlabl Sync="TRUE">ACREAGE</attrlabl><attalias Sync="TRUE">ACREAGE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>Acreage of lake</attrdef></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>3.933</transize>
+					<dssize Sync="TRUE">1.023</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<distrib><cntinfo><cntaddr><address>50 Sanatorium Rd</address><addrtype>mailing and physical address</addrtype><address>Building T</address><city>Pomona</city><state>NY</state><postal>10970</postal></cntaddr><cntperp><cntper>Douglas J. Schuetz</cntper><cntorg>Rockland County Planning Department</cntorg></cntperp><cntpos>GIS Director</cntpos><cntvoice>845.364.3434</cntvoice><cntfax>845.364.3435</cntfax><cntemail>schuetzd@co.rockland.ny.us</cntemail><hours>9-5</hours></cntinfo></distrib><distliab>Not for distribution; see license agreement
+
+The accuracy of the information presented on this website
+is not guaranteed. It was compiled from relevant public
+records, but is not implied by the County to represent an
+"official" replication thereof. This information is
+constantly changing, may not be accurate or precise at the
+time of viewing, is not supplied for engineering purposes
+and should be field verified for accuracy. The County of
+Rockland does not assume any liability to any party for any
+loss or damage caused by the use of information presented
+in this file.
+All use is strictly at the user's own risk.
+</distliab><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080730</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Rockland County Planning Department</cntorg>
+					<cntper>Christine Doolan</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Pomona</city>
+					<state>NY</state>
+					<postal>10970</postal>
+					<address>50 Sanatorium Rd</address><address>Building T</address></cntaddr>
+				<cntvoice>845.364.3429</cntvoice>
+				<cntpos>GIS Technician II</cntpos><cntfax>845.364.3435</cntfax><cntemail>doolanc@co.rockland.ny.us</cntemail><hours>9-5</hours></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{C30AC366-1E59-458A-994E-24085421A764}</MetaID><CreaDate>20051102</CreaDate><CreaTime>14070200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20080730</SyncDate><SyncTime>16011400</SyncTime><ModDate>20080730</ModDate><ModTime>16012700</ModTime></Esri><dataqual><lineage><procstep><procdesc>Original hydrology polygon file created by Sells (Consulting firm), Based on 2000 Aerial Flight.  This file is a subset of the hydrology polygon file</procdesc><srcused Sync="TRUE">C:\DOCUME~1\DoolanC\LOCALS~1\Temp\xml524.tmp</srcused><date Sync="TRUE">20051102</date><time Sync="TRUE">14070200</time><proccont><cntinfo><cntaddr><address>50 Sanatorium Rd</address><addrtype>mailing and physical address</addrtype><address>Building T</address><city>Pomona</city><state>NY</state><postal>10970</postal></cntaddr><cntperp><cntper>Christine Doolan</cntper><cntorg>Rockland County Planning Department</cntorg></cntperp><cntpos>GIS Technician II</cntpos><cntvoice>845.364.3429</cntvoice><cntfax>845.364.3435</cntfax><cntemail>doolanc@co.rockland.ny.us</cntemail><hours>9-5</hours></cntinfo></proccont></procstep></lineage><attracc><attraccr>All attributes created during the creation process were verified by displaying the lines in both the database and the spatial coverage, but no formal tests were performed</attraccr></attracc><logic>These data are believed to be logically consistent, though no tests were performed. Line geometry is topologically clean</logic><posacc><horizpa><horizpar>This data were created using Rockland's parcel based GIS system at 1:1200 scale. Therefore, the horizontal accuracy is assumed to be within National Map Accuracy Standards for 100' scale mapping</horizpar></horizpa><vertacc><vertaccr>This data were created using Rockland's parcel based GIS system at 1:1200 scale. Therefore, the vertical accuracy is assumed to be within National Map Accuracy Standards for 100' scale mapping</vertaccr></vertacc></posacc></dataqual><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">lakes_major83</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">570513.161618</westBL><eastBL Sync="TRUE">652966.818526</eastBL><northBL Sync="TRUE">874985.483926</northBL><southBL Sync="TRUE">803303.049043</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-74.215826</westBL><eastBL Sync="TRUE">-73.915181</eastBL><northBL Sync="TRUE">41.235124</northBL><southBL Sync="TRUE">41.037246</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\00123FDD841E\C$\GIS\Shared\Environment\Lakes\lakes_major83.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">1.023</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_New_York_East_FIPS_3101_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="lakes_major83"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">12</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20080730</mdDateSt></metadata>
