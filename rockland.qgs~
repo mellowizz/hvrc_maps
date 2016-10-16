@@ -1,0 +1,2150 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="2.99.0-Master" projectname="">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer id="st_parks8320161014212055416" expanded="1" checked="Qt::Checked" name="State Parks">
+      <customproperties>
+        <property value="" key="legend/expressionFilter"/>
+        <property value="true" key="legend/expressionFilterEnabled"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="Ctyparks8320161014212056520" expanded="1" checked="Qt::Checked" name="County Parks">
+      <customproperties>
+        <property value="" key="legend/expressionFilter"/>
+        <property value="false" key="legend/expressionFilterEnabled"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="Rockland_Streets20161014212535228" expanded="1" checked="Qt::Checked" name="Rockland_Streets">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="midhudson_municipalities20161014204835947" expanded="1" checked="Qt::Checked" name="Rockland County">
+      <customproperties>
+        <property value="" key="legend/expressionFilter"/>
+        <property value="false" key="legend/expressionFilterEnabled"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="hudsonRiver_8320161014212423491" expanded="1" checked="Qt::Checked" name="Hudson River">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="lakes_major8320161014212419451" expanded="1" checked="Qt::Checked" name="Major Lakes">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>-8279174.34304776042699814</xmin>
+      <ymin>5005705.32879113499075174</ymin>
+      <xmax>-8209894.81992239132523537</xmax>
+      <ymax>5063991.98874539788812399</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="Ctyparks8320161014212056520" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="midhudson_municipalities20161014163438839" srcAuthId="EPSG:26918" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="Rockland_Streets20161014212535228" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="Rockland_Streets20161014200444709" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="hudsonRiver_8320161014212423491" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="hudsonRiver_8320161014200425705" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="export_overpass_turbo_eu_export_Point20161014213748208" srcAuthId="EPSG:4326" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20161014164951855" srcAuthId="EPSG:3857" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="Streets20161014200433093" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="st_parks8320161014212055416" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="lakes_major8320161014212419451" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="rockland_lines20161014164232566" srcAuthId="EPSG:4326" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20161014165111256" srcAuthId="EPSG:3857" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="lakes_major8320161014200430368" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="RiverPolygons20161014200003900" srcAuthId="EPSG:2260" destAuthId="EPSG:3857"/>
+      <layer_coordinate_transform srcDatumTransform="-1" destDatumTransform="-1" layerid="midhudson_municipalities20161014204835947" srcAuthId="EPSG:26918" destAuthId="EPSG:3857"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>midhudson_municipalities20161014204835947</item>
+      <item>st_parks8320161014212055416</item>
+      <item>Ctyparks8320161014212056520</item>
+      <item>lakes_major8320161014212419451</item>
+      <item>hudsonRiver_8320161014212423491</item>
+      <item>Rockland_Streets20161014212535228</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="State Parks" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="st_parks8320161014212055416" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="County Parks" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="Ctyparks8320161014212056520" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="Rockland_Streets" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="Rockland_Streets20161014212535228" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="Rockland County" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="midhudson_municipalities20161014204835947" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="Hudson River" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="hudsonRiver_8320161014212423491" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="Major Lakes" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="lakes_major8320161014212419451" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <id>Ctyparks8320161014212056520</id>
+      <datasource>./Rockland/Ctyparks83.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>County Parks</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>242</srsid>
+          <srid>2260</srid>
+          <authid>EPSG:2260</authid>
+          <description>NAD83 / New York East (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="PARKNAME" expression=""/>
+        <default field="TOWN" expression=""/>
+        <default field="TYPE" expression=""/>
+        <default field="ATTRIBUTE" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="PARKNAME">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TOWN">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TYPE">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ATTRIBUTE">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="51,160,44,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="pal" key="labeling"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="false" key="labeling/drawLabels"/>
+        <property value="false" key="labeling/enabled"/>
+        <property value="" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="true" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="1" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+        <property value="_fields_" key="variableNames"/>
+        <property value="" key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="0" yPosColumn="-1" zIndex="0"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="PARKNAME" name="" index="0"/>
+        <alias field="TOWN" name="" index="1"/>
+        <alias field="TYPE" name="" index="2"/>
+        <alias field="ATTRIBUTE" name="" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="PARKNAME"/>
+          <column type="field" width="-1" hidden="0" name="TOWN"/>
+          <column type="field" width="-1" hidden="0" name="TYPE"/>
+          <column type="field" width="-1" hidden="0" name="ATTRIBUTE"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>PARKNAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Line" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <id>Rockland_Streets20161014212535228</id>
+      <datasource>./Rockland/Rockland_Streets.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Rockland_Streets</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>242</srsid>
+          <srid>2260</srid>
+          <authid>EPSG:2260</authid>
+          <description>NAD83 / New York East (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="LABEL" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="LABEL">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="RuleRenderer" symbollevels="0" enableorderby="0" forceraster="0">
+        <rules key="{f62e49dc-c4b5-4ed8-a459-1291e1a9c2ca}">
+          <rule filter="regexp_match(&quot;LABEL&quot;, 'ROUTE 9W|ROUTE 303|ROUTE 304') " symbol="0" label="State Highways" key="{bf3e4f72-8595-482c-9bae-411e199a952a}"/>
+          <rule filter="&quot;LABEL&quot; = '287' or LABEL like 'PALISADES INTERSTATE%' or regexp_match(&quot;LABEL&quot;, 'NEW YORK STATE THRUWAY - 87|NEW YORK STATE THRUWAY 87/287')" symbol="1" label="Interstates" key="{5546ec60-2168-48fc-be3f-83b1df6f75b3}"/>
+        </rules>
+        <symbols>
+          <symbol clip_to_extent="1" type="line" name="0" alpha="1">
+            <layer locked="0" class="SimpleLine" pass="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,223,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="line" name="1" alpha="1">
+            <layer locked="0" class="SimpleLine" pass="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,127,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{443dd47e-2357-4063-a7aa-5b347b5c2a7a}">
+          <rule filter="&quot;LABEL&quot; = '287' or LABEL like 'PALISADES INTERSTATE%' or regexp_match(&quot;LABEL&quot;, 'NEW YORK STATE THRUWAY - 87|NEW YORK STATE THRUWAY 87/287')" active="0" description="Interstate" key="{2d925d91-9026-48f0-9df9-ec9982a105b3}">
+            <settings>
+              <text-style fontWordSpacing="0" fontUnderline="0" fontCapitals="0" fontSizeInMapUnits="0" previewBkgrdColor="#ffffff" textColor="0,0,0,255" fontLetterSpacing="0" fontItalic="0" fontSize="10" useSubstitutions="0" blendMode="0" fieldName="regexp_replace(&quot;LABEL&quot;, '/sTHRUWAY', 'THRUWAY')" fontSizeMapUnitScale="0,0,0,0,0,0" fontStrikeout="0" namedStyle="" fontFamily="Sans" isExpression="1" textTransp="0" fontWeight="50">
+                <substitutions/>
+              </text-style>
+              <text-format multilineAlign="4294967295" addDirectionSymbol="0" wrapChar="" placeDirectionSymbol="0" plussign="0" reverseDirectionSymbol="0" formatNumbers="0" decimals="3" multilineHeight="1" rightDirectionSymbol=">" leftDirectionSymbol="&lt;"/>
+              <text-buffer bufferSizeInMapUnits="0" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferBlendMode="0" bufferTransp="0" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255" bufferDraw="0" bufferNoFill="0"/>
+              <background shapeRadiiX="0" shapeSizeY="0" shapeSizeUnits="1" shapeDraw="0" shapeTransparency="0" shapeBorderColor="128,128,128,255" shapeRotation="0" shapeRotationType="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeBorderWidth="0" shapeSizeX="0" shapeBlendMode="0" shapeOffsetUnits="1" shapeBorderWidthUnits="1" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRadiiUnits="1" shapeRadiiMapUnitScale="0,0,0,0,0,0"/>
+              <shadow shadowOffsetDist="1" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusUnits="1" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowUnder="0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnits="1" shadowTransparency="30" shadowOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement priority="5" xOffset="0" labelOffsetMapUnitScale="0,0,0,0,0,0" labelOffsetInMapUnits="1" maxCurvedCharAngleIn="25" distInMapUnits="0" dist="0" angleOffset="0" yOffset="0" repeatDistance="0" repeatDistanceMapUnitScale="0,0,0,0,0,0" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-25" distMapUnitScale="0,0,0,0,0,0" preserveRotation="1" centroidInside="0" placement="2" placementFlags="10" repeatDistanceUnit="1" fitInPolygonOnly="0" centroidWhole="0" quadOffset="4"/>
+              <rendering fontMinPixelSize="3" obstacleType="0" fontLimitPixelSize="0" scaleMin="1" mergeLines="0" obstacle="1" limitNumLabels="1" displayAll="0" obstacleFactor="1" fontMaxPixelSize="10000" scaleVisibility="0" maxNumLabels="5" scaleMax="10000000" minFeatureSize="0" upsidedownLabels="0" labelPerPart="0" zIndex="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+          <rule filter="regexp_match(&quot;LABEL&quot;, 'ROUTE 9W|ROUTE 303|ROUTE 304')" active="0" description="State Highways" key="{8a8226c7-9848-4df6-b5c1-b8dc0c595cf8}">
+            <settings>
+              <text-style fontWordSpacing="0" fontUnderline="0" fontCapitals="0" fontSizeInMapUnits="0" previewBkgrdColor="#ffffff" textColor="0,0,0,255" fontLetterSpacing="0" fontItalic="0" fontSize="10" useSubstitutions="0" blendMode="0" fieldName="LABEL" fontSizeMapUnitScale="0,0,0,0,0,0" fontStrikeout="0" namedStyle="" fontFamily="Sans" isExpression="0" textTransp="0" fontWeight="50">
+                <substitutions/>
+              </text-style>
+              <text-format multilineAlign="4294967295" addDirectionSymbol="0" wrapChar="" placeDirectionSymbol="0" plussign="0" reverseDirectionSymbol="0" formatNumbers="0" decimals="3" multilineHeight="1" rightDirectionSymbol=">" leftDirectionSymbol="&lt;"/>
+              <text-buffer bufferSizeInMapUnits="0" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferBlendMode="0" bufferTransp="0" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255" bufferDraw="0" bufferNoFill="0"/>
+              <background shapeRadiiX="0" shapeSizeY="0" shapeSizeUnits="1" shapeDraw="0" shapeTransparency="0" shapeBorderColor="128,128,128,255" shapeRotation="0" shapeRotationType="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeBorderWidth="0" shapeSizeX="0" shapeBlendMode="0" shapeOffsetUnits="1" shapeBorderWidthUnits="1" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRadiiUnits="1" shapeRadiiMapUnitScale="0,0,0,0,0,0"/>
+              <shadow shadowOffsetDist="1" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusUnits="1" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowUnder="0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnits="1" shadowTransparency="30" shadowOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement priority="5" xOffset="0" labelOffsetMapUnitScale="0,0,0,0,0,0" labelOffsetInMapUnits="1" maxCurvedCharAngleIn="25" distInMapUnits="0" dist="0" angleOffset="0" yOffset="0" repeatDistance="0" repeatDistanceMapUnitScale="0,0,0,0,0,0" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-25" distMapUnitScale="0,0,0,0,0,0" preserveRotation="1" centroidInside="0" placement="2" placementFlags="10" repeatDistanceUnit="1" fitInPolygonOnly="0" centroidWhole="0" quadOffset="4"/>
+              <rendering fontMinPixelSize="3" obstacleType="0" fontLimitPixelSize="0" scaleMin="1" mergeLines="0" obstacle="1" limitNumLabels="0" displayAll="0" obstacleFactor="1" fontMaxPixelSize="10000" scaleVisibility="0" maxNumLabels="2000" scaleMax="10000000" minFeatureSize="0" upsidedownLabels="0" labelPerPart="0" zIndex="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="false" key="labeling/drawLabels"/>
+        <property value="false" key="labeling/enabled"/>
+        <property value="" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="true" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="2" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+        <property value="_fields_" key="variableNames"/>
+        <property value="" key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="2" yPosColumn="-1" zIndex="0"/>
+      <annotationform>../../ownCloud/HVRC/Maps/project_files</annotationform>
+      <aliases>
+        <alias field="LABEL" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="LABEL"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../ownCloud/HVRC/Maps/project_files</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>LABEL</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <id>hudsonRiver_8320161014212423491</id>
+      <datasource>./Rockland/hudsonRiver_83.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hudson River</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>242</srsid>
+          <srid>2260</srid>
+          <authid>EPSG:2260</authid>
+          <description>NAD83 / New York East (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="ACRES" expression=""/>
+        <default field="Name" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="Range" name="ACRES">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Name">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="165,191,221,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="114,133,132,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property value="pal" key="labeling"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="false" key="labeling/drawLabels"/>
+        <property value="false" key="labeling/enabled"/>
+        <property value="" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="true" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="1" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="0" yPosColumn="-1" zIndex="0"/>
+      <annotationform>../../ownCloud/HVRC/Maps/project_files</annotationform>
+      <aliases>
+        <alias field="ACRES" name="" index="0"/>
+        <alias field="Name" name="" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="ACRES"/>
+          <column type="field" width="-1" hidden="0" name="Name"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../ownCloud/HVRC/Maps/project_files</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>Name</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <id>lakes_major8320161014212419451</id>
+      <datasource>./Rockland/lakes_major83.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Major Lakes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>242</srsid>
+          <srid>2260</srid>
+          <authid>EPSG:2260</authid>
+          <description>NAD83 / New York East (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="AREA" expression=""/>
+        <default field="PERIMETER" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="ACREAGE" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="Range" name="AREA">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="PERIMETER">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="ACREAGE">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="166,206,227,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property value="pal" key="labeling"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="false" key="labeling/drawLabels"/>
+        <property value="false" key="labeling/enabled"/>
+        <property value="" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="true" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="1" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="0" yPosColumn="-1" zIndex="0"/>
+      <annotationform>../../ownCloud/HVRC/Maps/project_files</annotationform>
+      <aliases>
+        <alias field="AREA" name="" index="0"/>
+        <alias field="PERIMETER" name="" index="1"/>
+        <alias field="NAME" name="" index="2"/>
+        <alias field="ACREAGE" name="" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="AREA"/>
+          <column type="field" width="-1" hidden="0" name="PERIMETER"/>
+          <column type="field" width="-1" hidden="0" name="NAME"/>
+          <column type="field" width="-1" hidden="0" name="ACREAGE"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../ownCloud/HVRC/Maps/project_files</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <extent>
+        <xmin>487852.07876115199178457</xmin>
+        <ymin>4525282.56330554187297821</ymin>
+        <xmax>627263.15831147693097591</xmax>
+        <ymax>4669915.03498058766126633</ymax>
+      </extent>
+      <id>midhudson_municipalities20161014204835947</id>
+      <datasource>./midhudson_municipalities.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Rockland County</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2295</srsid>
+          <srid>26918</srid>
+          <authid>EPSG:26918</authid>
+          <description>NAD83 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="MUNI_TYPE" expression=""/>
+        <default field="GNIS_ID" expression=""/>
+        <default field="POP1990" expression=""/>
+        <default field="POP2000" expression=""/>
+        <default field="POP2010" expression=""/>
+        <default field="DOS_LL" expression=""/>
+        <default field="DOS_LL_DAT" expression=""/>
+        <default field="MAP_SYMBOL" expression=""/>
+        <default field="DATEMOD" expression=""/>
+        <default field="COUNTY" expression=""/>
+        <default field="SWIS" expression=""/>
+        <default field="CALC_SqMi" expression=""/>
+        <default field="SHAPE_Leng" expression=""/>
+        <default field="SHAPE_Area" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="Range" name="OBJECTID">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MUNI_TYPE">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GNIS_ID">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP1990">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP2000">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP2010">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DOS_LL">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DOS_LL_DAT">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MAP_SYMBOL">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DATEMOD">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTY">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SWIS">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="CALC_SqMi">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="SHAPE_Leng">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="SHAPE_Area">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="RuleRenderer" symbollevels="0" enableorderby="0" forceraster="0">
+        <rules key="{5316a761-709e-4c5a-8b19-6899f3791c29}">
+          <rule filter=" &quot;MUNI_TYPE&quot;  = 'city' and &quot;COUNTY&quot;='Rockland' " symbol="0" label="Cities" key="{263775d9-a73c-4443-809a-672f665f11b5}"/>
+          <rule filter=" &quot;MUNI_TYPE&quot;  = 'town' and &quot;COUNTY&quot;='Rockland' " symbol="1" label="Town" key="{4b09972d-c236-4140-9f7c-6052fba01338}"/>
+          <rule filter=" &quot;MUNI_TYPE&quot;  = '0' and &quot;COUNTY&quot;='Rockland' " symbol="2" label="Villages" key="{f17cf3ae-6b58-4f04-9981-e9359addd8d9}"/>
+        </rules>
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="104,160,244,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="fill" name="1" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="160,41,41,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="dash dot"/>
+              <prop k="outline_width" v="0.46"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="fill" name="2" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="147,235,224,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="dot"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{c0d5d474-3b3c-4567-be55-4e2fe4539eda}">
+          <rule filter="&quot;MUNI_TYPE&quot; = 'town' " description="Towns" key="{93f53018-3cfc-43ed-917a-5d151f2a272c}">
+            <settings>
+              <text-style fontWordSpacing="0" fontUnderline="0" fontCapitals="0" fontSizeInMapUnits="0" previewBkgrdColor="#ffffff" textColor="0,0,0,255" fontLetterSpacing="0" fontItalic="0" fontSize="10" useSubstitutions="0" blendMode="0" fieldName="NAME" fontSizeMapUnitScale="0,0,0,0,0,0" fontStrikeout="0" namedStyle="" fontFamily="Sans" isExpression="0" textTransp="0" fontWeight="50">
+                <substitutions/>
+              </text-style>
+              <text-format multilineAlign="0" addDirectionSymbol="0" wrapChar="" placeDirectionSymbol="0" plussign="0" reverseDirectionSymbol="0" formatNumbers="0" decimals="3" multilineHeight="1" rightDirectionSymbol=">" leftDirectionSymbol="&lt;"/>
+              <text-buffer bufferSizeInMapUnits="0" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferBlendMode="0" bufferTransp="0" bufferJoinStyle="64" bufferSize="1" bufferColor="255,255,255,255" bufferDraw="0" bufferNoFill="0"/>
+              <background shapeRadiiX="0" shapeSizeY="0" shapeSizeUnits="1" shapeDraw="0" shapeTransparency="0" shapeBorderColor="128,128,128,255" shapeRotation="0" shapeRotationType="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeBorderWidth="0" shapeSizeX="0" shapeBlendMode="0" shapeOffsetUnits="1" shapeBorderWidthUnits="1" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRadiiUnits="1" shapeRadiiMapUnitScale="0,0,0,0,0,0"/>
+              <shadow shadowOffsetDist="1" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusUnits="1" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowUnder="0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnits="1" shadowTransparency="30" shadowOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement priority="5" xOffset="0" labelOffsetMapUnitScale="0,0,0,0,0,0" labelOffsetInMapUnits="1" maxCurvedCharAngleIn="20" distInMapUnits="0" dist="0" angleOffset="0" yOffset="0" repeatDistance="0" repeatDistanceMapUnitScale="0,0,0,0,0,0" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-20" distMapUnitScale="0,0,0,0,0,0" preserveRotation="1" centroidInside="0" placement="0" placementFlags="10" repeatDistanceUnit="1" fitInPolygonOnly="0" centroidWhole="0" quadOffset="4"/>
+              <rendering fontMinPixelSize="3" obstacleType="0" fontLimitPixelSize="0" scaleMin="1" mergeLines="0" obstacle="1" limitNumLabels="0" displayAll="0" obstacleFactor="1" fontMaxPixelSize="10000" scaleVisibility="0" maxNumLabels="2000" scaleMax="10000000" minFeatureSize="0" upsidedownLabels="0" labelPerPart="0" zIndex="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+          <rule filter="&quot;MUNI_TYPE&quot; = 'city'" description="City" key="{bc3e141e-d2ac-48de-8ab9-9e0727750b2e}">
+            <settings>
+              <text-style fontWordSpacing="0" fontUnderline="1" fontCapitals="0" fontSizeInMapUnits="0" previewBkgrdColor="#ffffff" textColor="0,0,0,255" fontLetterSpacing="0" fontItalic="0" fontSize="12" useSubstitutions="0" blendMode="0" fieldName="NAME" fontSizeMapUnitScale="0,0,0,0,0,0" fontStrikeout="0" namedStyle="" fontFamily="Sans" isExpression="0" textTransp="0" fontWeight="50">
+                <substitutions/>
+              </text-style>
+              <text-format multilineAlign="0" addDirectionSymbol="0" wrapChar="" placeDirectionSymbol="0" plussign="0" reverseDirectionSymbol="0" formatNumbers="0" decimals="3" multilineHeight="1" rightDirectionSymbol=">" leftDirectionSymbol="&lt;"/>
+              <text-buffer bufferSizeInMapUnits="0" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferBlendMode="0" bufferTransp="0" bufferJoinStyle="64" bufferSize="1" bufferColor="255,255,255,255" bufferDraw="0" bufferNoFill="0"/>
+              <background shapeRadiiX="0" shapeSizeY="0" shapeSizeUnits="1" shapeDraw="0" shapeTransparency="0" shapeBorderColor="128,128,128,255" shapeRotation="0" shapeRotationType="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeBorderWidth="0" shapeSizeX="0" shapeBlendMode="0" shapeOffsetUnits="1" shapeBorderWidthUnits="1" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRadiiUnits="1" shapeRadiiMapUnitScale="0,0,0,0,0,0"/>
+              <shadow shadowOffsetDist="1" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusUnits="1" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowUnder="0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnits="1" shadowTransparency="30" shadowOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement priority="5" xOffset="0.6" labelOffsetMapUnitScale="0,0,0,0,0,0" labelOffsetInMapUnits="1" maxCurvedCharAngleIn="20" distInMapUnits="0" dist="0" angleOffset="0" yOffset="1.1" repeatDistance="0" repeatDistanceMapUnitScale="0,0,0,0,0,0" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-20" distMapUnitScale="0,0,0,0,0,0" preserveRotation="1" centroidInside="0" placement="0" placementFlags="10" repeatDistanceUnit="1" fitInPolygonOnly="0" centroidWhole="0" quadOffset="0"/>
+              <rendering fontMinPixelSize="3" obstacleType="0" fontLimitPixelSize="0" scaleMin="1" mergeLines="0" obstacle="1" limitNumLabels="0" displayAll="0" obstacleFactor="1" fontMaxPixelSize="10000" scaleVisibility="0" maxNumLabels="2000" scaleMax="10000000" minFeatureSize="0" upsidedownLabels="0" labelPerPart="0" zIndex="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+          <rule filter=" &quot;MUNI_TYPE&quot;  = '0'" description="Villages" key="{cdc5fcc8-6ba9-4cb1-bb64-b8bd6526ce23}">
+            <settings>
+              <text-style fontWordSpacing="0" fontUnderline="0" fontCapitals="0" fontSizeInMapUnits="0" previewBkgrdColor="#ffffff" textColor="0,0,0,255" fontLetterSpacing="0" fontItalic="0" fontSize="8" useSubstitutions="0" blendMode="0" fieldName="NAME" fontSizeMapUnitScale="0,0,0,0,0,0" fontStrikeout="0" namedStyle="" fontFamily="Sans" isExpression="0" textTransp="0" fontWeight="50">
+                <substitutions/>
+              </text-style>
+              <text-format multilineAlign="0" addDirectionSymbol="0" wrapChar="" placeDirectionSymbol="0" plussign="0" reverseDirectionSymbol="0" formatNumbers="0" decimals="3" multilineHeight="1" rightDirectionSymbol=">" leftDirectionSymbol="&lt;"/>
+              <text-buffer bufferSizeInMapUnits="0" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferBlendMode="0" bufferTransp="0" bufferJoinStyle="64" bufferSize="1" bufferColor="255,255,255,255" bufferDraw="0" bufferNoFill="0"/>
+              <background shapeRadiiX="0" shapeSizeY="0" shapeSizeUnits="1" shapeDraw="0" shapeTransparency="0" shapeBorderColor="128,128,128,255" shapeRotation="0" shapeRotationType="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeBorderWidth="0" shapeSizeX="0" shapeBlendMode="0" shapeOffsetUnits="1" shapeBorderWidthUnits="1" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRadiiUnits="1" shapeRadiiMapUnitScale="0,0,0,0,0,0"/>
+              <shadow shadowOffsetDist="1" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusUnits="1" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowUnder="0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnits="1" shadowTransparency="30" shadowOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement priority="5" xOffset="0" labelOffsetMapUnitScale="0,0,0,0,0,0" labelOffsetInMapUnits="1" maxCurvedCharAngleIn="20" distInMapUnits="0" dist="0" angleOffset="0" yOffset="0" repeatDistance="0" repeatDistanceMapUnitScale="0,0,0,0,0,0" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-20" distMapUnitScale="0,0,0,0,0,0" preserveRotation="1" centroidInside="0" placement="0" placementFlags="10" repeatDistanceUnit="1" fitInPolygonOnly="0" centroidWhole="0" quadOffset="4"/>
+              <rendering fontMinPixelSize="3" obstacleType="0" fontLimitPixelSize="0" scaleMin="1" mergeLines="0" obstacle="1" limitNumLabels="0" displayAll="0" obstacleFactor="1" fontMaxPixelSize="10000" scaleVisibility="0" maxNumLabels="2000" scaleMax="10000000" minFeatureSize="0" upsidedownLabels="0" labelPerPart="0" zIndex="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="true" key="labeling/drawLabels"/>
+        <property value="true" key="labeling/enabled"/>
+        <property value="NAME" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="false" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="1" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+        <property value="_fields_" key="variableNames"/>
+        <property value="" key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="0" yPosColumn="-1" zIndex="0"/>
+      <annotationform>../../ownCloud/PROGRA~1/QGIS2~1.16/bin</annotationform>
+      <aliases>
+        <alias field="OBJECTID" name="" index="0"/>
+        <alias field="NAME" name="" index="1"/>
+        <alias field="MUNI_TYPE" name="" index="2"/>
+        <alias field="GNIS_ID" name="" index="3"/>
+        <alias field="POP1990" name="" index="4"/>
+        <alias field="POP2000" name="" index="5"/>
+        <alias field="POP2010" name="" index="6"/>
+        <alias field="DOS_LL" name="" index="7"/>
+        <alias field="DOS_LL_DAT" name="" index="8"/>
+        <alias field="MAP_SYMBOL" name="" index="9"/>
+        <alias field="DATEMOD" name="" index="10"/>
+        <alias field="COUNTY" name="" index="11"/>
+        <alias field="SWIS" name="" index="12"/>
+        <alias field="CALC_SqMi" name="" index="13"/>
+        <alias field="SHAPE_Leng" name="" index="14"/>
+        <alias field="SHAPE_Area" name="" index="15"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;NAME&quot;">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="OBJECTID"/>
+          <column type="field" width="-1" hidden="0" name="NAME"/>
+          <column type="field" width="-1" hidden="0" name="MUNI_TYPE"/>
+          <column type="field" width="-1" hidden="0" name="GNIS_ID"/>
+          <column type="field" width="-1" hidden="0" name="POP1990"/>
+          <column type="field" width="-1" hidden="0" name="POP2000"/>
+          <column type="field" width="-1" hidden="0" name="POP2010"/>
+          <column type="field" width="-1" hidden="0" name="DOS_LL"/>
+          <column type="field" width="-1" hidden="0" name="DOS_LL_DAT"/>
+          <column type="field" width="-1" hidden="0" name="MAP_SYMBOL"/>
+          <column type="field" width="-1" hidden="0" name="DATEMOD"/>
+          <column type="field" width="-1" hidden="0" name="COUNTY"/>
+          <column type="field" width="-1" hidden="0" name="SWIS"/>
+          <column type="field" width="-1" hidden="0" name="CALC_SqMi"/>
+          <column type="field" width="-1" hidden="0" name="SHAPE_Leng"/>
+          <column type="field" width="-1" hidden="0" name="SHAPE_Area"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../ownCloud/PROGRA~1/QGIS2~1.16/bin</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" maximumScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" minimumScale="100000">
+      <id>st_parks8320161014212055416</id>
+      <datasource>./Rockland/st_parks83.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>State Parks</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>242</srsid>
+          <srid>2260</srid>
+          <authid>EPSG:2260</authid>
+          <description>NAD83 / New York East (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <defaults>
+        <default field="TYPE" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="Comments" expression=""/>
+        <default field="GIS_Acres" expression=""/>
+        <default field="LABEL" expression=""/>
+      </defaults>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="TYPE">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Comments">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Range" name="GIS_Acres">
+          <widgetv2config constraint="" Style="" fieldEditable="1" Step="" notNull="0" constraintDescription="" Max="" Min="" AllowNull="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LABEL">
+          <widgetv2config constraint="" UseHtml="0" fieldEditable="1" notNull="0" constraintDescription="" IsMultiline="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="74,134,83,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="pal" key="labeling"/>
+        <property value="false" key="labeling/addDirectionSymbol"/>
+        <property value="0" key="labeling/angleOffset"/>
+        <property value="0" key="labeling/blendMode"/>
+        <property value="0" key="labeling/bufferBlendMode"/>
+        <property value="255" key="labeling/bufferColorA"/>
+        <property value="255" key="labeling/bufferColorB"/>
+        <property value="255" key="labeling/bufferColorG"/>
+        <property value="255" key="labeling/bufferColorR"/>
+        <property value="false" key="labeling/bufferDraw"/>
+        <property value="128" key="labeling/bufferJoinStyle"/>
+        <property value="false" key="labeling/bufferNoFill"/>
+        <property value="1" key="labeling/bufferSize"/>
+        <property value="false" key="labeling/bufferSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/bufferSizeMapUnitScale"/>
+        <property value="0" key="labeling/bufferTransp"/>
+        <property value="false" key="labeling/centroidInside"/>
+        <property value="false" key="labeling/centroidWhole"/>
+        <property value="3" key="labeling/decimals"/>
+        <property value="false" key="labeling/displayAll"/>
+        <property value="0" key="labeling/dist"/>
+        <property value="false" key="labeling/distInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/distMapUnitScale"/>
+        <property value="false" key="labeling/drawLabels"/>
+        <property value="false" key="labeling/enabled"/>
+        <property value="" key="labeling/fieldName"/>
+        <property value="false" key="labeling/fitInPolygonOnly"/>
+        <property value="0" key="labeling/fontCapitals"/>
+        <property value="Sans" key="labeling/fontFamily"/>
+        <property value="false" key="labeling/fontItalic"/>
+        <property value="0" key="labeling/fontLetterSpacing"/>
+        <property value="false" key="labeling/fontLimitPixelSize"/>
+        <property value="10000" key="labeling/fontMaxPixelSize"/>
+        <property value="3" key="labeling/fontMinPixelSize"/>
+        <property value="10" key="labeling/fontSize"/>
+        <property value="false" key="labeling/fontSizeInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/fontSizeMapUnitScale"/>
+        <property value="false" key="labeling/fontStrikeout"/>
+        <property value="false" key="labeling/fontUnderline"/>
+        <property value="50" key="labeling/fontWeight"/>
+        <property value="0" key="labeling/fontWordSpacing"/>
+        <property value="false" key="labeling/formatNumbers"/>
+        <property value="true" key="labeling/isExpression"/>
+        <property value="true" key="labeling/labelOffsetInMapUnits"/>
+        <property value="0,0,0,0,0,0" key="labeling/labelOffsetMapUnitScale"/>
+        <property value="false" key="labeling/labelPerPart"/>
+        <property value="&lt;" key="labeling/leftDirectionSymbol"/>
+        <property value="false" key="labeling/limitNumLabels"/>
+        <property value="25" key="labeling/maxCurvedCharAngleIn"/>
+        <property value="-25" key="labeling/maxCurvedCharAngleOut"/>
+        <property value="2000" key="labeling/maxNumLabels"/>
+        <property value="false" key="labeling/mergeLines"/>
+        <property value="0" key="labeling/minFeatureSize"/>
+        <property value="4294967295" key="labeling/multilineAlign"/>
+        <property value="1" key="labeling/multilineHeight"/>
+        <property value="" key="labeling/namedStyle"/>
+        <property value="true" key="labeling/obstacle"/>
+        <property value="1" key="labeling/obstacleFactor"/>
+        <property value="0" key="labeling/obstacleType"/>
+        <property value="0" key="labeling/offsetType"/>
+        <property value="0" key="labeling/placeDirectionSymbol"/>
+        <property value="1" key="labeling/placement"/>
+        <property value="10" key="labeling/placementFlags"/>
+        <property value="false" key="labeling/plussign"/>
+        <property value="TR,TL,BR,BL,R,L,TSR,BSR" key="labeling/predefinedPositionOrder"/>
+        <property value="true" key="labeling/preserveRotation"/>
+        <property value="#ffffff" key="labeling/previewBkgrdColor"/>
+        <property value="5" key="labeling/priority"/>
+        <property value="4" key="labeling/quadOffset"/>
+        <property value="0" key="labeling/repeatDistance"/>
+        <property value="0,0,0,0,0,0" key="labeling/repeatDistanceMapUnitScale"/>
+        <property value="1" key="labeling/repeatDistanceUnit"/>
+        <property value="false" key="labeling/reverseDirectionSymbol"/>
+        <property value=">" key="labeling/rightDirectionSymbol"/>
+        <property value="10000000" key="labeling/scaleMax"/>
+        <property value="1" key="labeling/scaleMin"/>
+        <property value="false" key="labeling/scaleVisibility"/>
+        <property value="6" key="labeling/shadowBlendMode"/>
+        <property value="0" key="labeling/shadowColorB"/>
+        <property value="0" key="labeling/shadowColorG"/>
+        <property value="0" key="labeling/shadowColorR"/>
+        <property value="false" key="labeling/shadowDraw"/>
+        <property value="135" key="labeling/shadowOffsetAngle"/>
+        <property value="1" key="labeling/shadowOffsetDist"/>
+        <property value="true" key="labeling/shadowOffsetGlobal"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shadowOffsetUnits"/>
+        <property value="1.5" key="labeling/shadowRadius"/>
+        <property value="false" key="labeling/shadowRadiusAlphaOnly"/>
+        <property value="0,0,0,0,0,0" key="labeling/shadowRadiusMapUnitScale"/>
+        <property value="1" key="labeling/shadowRadiusUnits"/>
+        <property value="100" key="labeling/shadowScale"/>
+        <property value="30" key="labeling/shadowTransparency"/>
+        <property value="0" key="labeling/shadowUnder"/>
+        <property value="0" key="labeling/shapeBlendMode"/>
+        <property value="255" key="labeling/shapeBorderColorA"/>
+        <property value="128" key="labeling/shapeBorderColorB"/>
+        <property value="128" key="labeling/shapeBorderColorG"/>
+        <property value="128" key="labeling/shapeBorderColorR"/>
+        <property value="0" key="labeling/shapeBorderWidth"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeBorderWidthMapUnitScale"/>
+        <property value="1" key="labeling/shapeBorderWidthUnits"/>
+        <property value="false" key="labeling/shapeDraw"/>
+        <property value="255" key="labeling/shapeFillColorA"/>
+        <property value="255" key="labeling/shapeFillColorB"/>
+        <property value="255" key="labeling/shapeFillColorG"/>
+        <property value="255" key="labeling/shapeFillColorR"/>
+        <property value="64" key="labeling/shapeJoinStyle"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeOffsetMapUnitScale"/>
+        <property value="1" key="labeling/shapeOffsetUnits"/>
+        <property value="0" key="labeling/shapeOffsetX"/>
+        <property value="0" key="labeling/shapeOffsetY"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeRadiiMapUnitScale"/>
+        <property value="1" key="labeling/shapeRadiiUnits"/>
+        <property value="0" key="labeling/shapeRadiiX"/>
+        <property value="0" key="labeling/shapeRadiiY"/>
+        <property value="0" key="labeling/shapeRotation"/>
+        <property value="0" key="labeling/shapeRotationType"/>
+        <property value="" key="labeling/shapeSVGFile"/>
+        <property value="0,0,0,0,0,0" key="labeling/shapeSizeMapUnitScale"/>
+        <property value="0" key="labeling/shapeSizeType"/>
+        <property value="1" key="labeling/shapeSizeUnits"/>
+        <property value="0" key="labeling/shapeSizeX"/>
+        <property value="0" key="labeling/shapeSizeY"/>
+        <property value="0" key="labeling/shapeTransparency"/>
+        <property value="0" key="labeling/shapeType"/>
+        <property value="&lt;substitutions/>" key="labeling/substitutions"/>
+        <property value="255" key="labeling/textColorA"/>
+        <property value="0" key="labeling/textColorB"/>
+        <property value="0" key="labeling/textColorG"/>
+        <property value="0" key="labeling/textColorR"/>
+        <property value="0" key="labeling/textTransp"/>
+        <property value="0" key="labeling/upsidedownLabels"/>
+        <property value="false" key="labeling/useSubstitutions"/>
+        <property value="" key="labeling/wrapChar"/>
+        <property value="0" key="labeling/xOffset"/>
+        <property value="0" key="labeling/yOffset"/>
+        <property value="0" key="labeling/zIndex"/>
+        <property value="_fields_" key="variableNames"/>
+        <property value="" key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory angleOffset="1440" maxScaleDenominator="1e+8" sizeScale="0,0,0,0,0,0" lineSizeType="MM" height="15" barWidth="5" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="0,0,0,0,0,0" penWidth="0" scaleDependency="Area" enabled="0" penColor="#000000" scaleBasedVisibility="0" transparency="0" labelPlacementMethod="XHeight" backgroundAlpha="255" width="15" minScaleDenominator="100000" diagramOrientation="Up" sizeType="MM" penAlpha="255">
+          <fontProperties style="" description="Sans,10,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+        <symbol clip_to_extent="1" type="marker" name="sizeSymbol" alpha="1">
+          <layer locked="0" class="SimpleMarker" pass="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" dist="0" priority="0" linePlacementFlags="10" xPosColumn="-1" showColumn="-1" placement="0" yPosColumn="-1" zIndex="0"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="TYPE" name="" index="0"/>
+        <alias field="NAME" name="" index="1"/>
+        <alias field="Comments" name="" index="2"/>
+        <alias field="GIS_Acres" name="" index="3"/>
+        <alias field="LABEL" name="" index="4"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="TYPE"/>
+          <column type="field" width="-1" hidden="0" name="NAME"/>
+          <column type="field" width="-1" hidden="0" name="Comments"/>
+          <column type="field" width="-1" hidden="0" name="GIS_Acres"/>
+          <column type="field" width="-1" hidden="0" name="LABEL"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Digitizing>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <LayerSnappingList type="QStringList">
+        <value>midhudson_municipalities20161014204835947</value>
+        <value>st_parks8320161014212055416</value>
+        <value>Ctyparks8320161014212056520</value>
+        <value>lakes_major8320161014212419451</value>
+        <value>hudsonRiver_8320161014212423491</value>
+        <value>Rockland_Streets20161014212535228</value>
+      </LayerSnappingList>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Gui>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+    </Gui>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+    </SpatialRefSys>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+  </properties>
+  <visibility-presets/>
+</qgis>

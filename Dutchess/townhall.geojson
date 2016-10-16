@@ -1,0 +1,1978 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-10-16T02:56:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/258943252",
+      "properties": {
+        "@id": "way/258943252",
+        "addr:city": "Patterson",
+        "addr:housenumber": "1142",
+        "addr:postcode": "12563",
+        "addr:street": "State Highway 311",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Patterson town Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.6044808,
+              41.51372
+            ],
+            [
+              -73.6045023,
+              41.5139389
+            ],
+            [
+              -73.6045586,
+              41.5139369
+            ],
+            [
+              -73.6045694,
+              41.5139871
+            ],
+            [
+              -73.6046391,
+              41.5139851
+            ],
+            [
+              -73.6046445,
+              41.5140293
+            ],
+            [
+              -73.6047464,
+              41.5140252
+            ],
+            [
+              -73.6047437,
+              41.5139811
+            ],
+            [
+              -73.6048054,
+              41.5139851
+            ],
+            [
+              -73.605028,
+              41.5139911
+            ],
+            [
+              -73.6050387,
+              41.5140192
+            ],
+            [
+              -73.6052372,
+              41.5140192
+            ],
+            [
+              -73.6052292,
+              41.5139148
+            ],
+            [
+              -73.6050387,
+              41.5139108
+            ],
+            [
+              -73.6049234,
+              41.5139027
+            ],
+            [
+              -73.6049207,
+              41.5138003
+            ],
+            [
+              -73.6047544,
+              41.5137943
+            ],
+            [
+              -73.6047517,
+              41.513738
+            ],
+            [
+              -73.6046069,
+              41.5137461
+            ],
+            [
+              -73.6045908,
+              41.513722
+            ],
+            [
+              -73.6044808,
+              41.51372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263869921",
+      "properties": {
+        "@id": "way/263869921",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "building": "yes",
+        "ele": "66",
+        "gnis:county_name": "Ulster",
+        "gnis:feature_id": "2392475",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Kingston City Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9959173,
+              41.9272047
+            ],
+            [
+              -73.9962243,
+              41.9272944
+            ],
+            [
+              -73.996266,
+              41.9273065
+            ],
+            [
+              -73.9963663,
+              41.9271159
+            ],
+            [
+              -73.9962366,
+              41.9270781
+            ],
+            [
+              -73.9962541,
+              41.927045
+            ],
+            [
+              -73.9961387,
+              41.9270113
+            ],
+            [
+              -73.9961218,
+              41.9270432
+            ],
+            [
+              -73.9960183,
+              41.927013
+            ],
+            [
+              -73.9959173,
+              41.9272047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/264328346",
+      "properties": {
+        "@id": "way/264328346",
+        "addr:housenumber": "1",
+        "addr:street": "Neighborhood Road",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Ulster Town Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0022642,
+              41.9766648
+            ],
+            [
+              -74.0027342,
+              41.9767003
+            ],
+            [
+              -74.00276,
+              41.9765101
+            ],
+            [
+              -74.00229,
+              41.9764746
+            ],
+            [
+              -74.0022642,
+              41.9766648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/268490438",
+      "properties": {
+        "@id": "way/268490438",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Maybrook Village Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.2095785,
+              41.4908086
+            ],
+            [
+              -74.2097002,
+              41.4908798
+            ],
+            [
+              -74.2097268,
+              41.4908542
+            ],
+            [
+              -74.2098417,
+              41.4909214
+            ],
+            [
+              -74.2099423,
+              41.4908248
+            ],
+            [
+              -74.2097709,
+              41.4907247
+            ],
+            [
+              -74.2097938,
+              41.4907027
+            ],
+            [
+              -74.209767,
+              41.490687
+            ],
+            [
+              -74.2097915,
+              41.4906635
+            ],
+            [
+              -74.209605,
+              41.4905545
+            ],
+            [
+              -74.2095508,
+              41.4906066
+            ],
+            [
+              -74.2096723,
+              41.4906776
+            ],
+            [
+              -74.2095765,
+              41.4907696
+            ],
+            [
+              -74.209603,
+              41.4907851
+            ],
+            [
+              -74.2095785,
+              41.4908086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/268939610",
+      "properties": {
+        "@id": "way/268939610",
+        "addr:city": "New Milford",
+        "addr:housenumber": "10",
+        "addr:postcode": "06776",
+        "addr:street": "Main Street",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Town Hall Of New Milford",
+        "website": "http://www.newmilford.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.4100223,
+              41.5779179
+            ],
+            [
+              -73.4103325,
+              41.5778096
+            ],
+            [
+              -73.4102333,
+              41.5776508
+            ],
+            [
+              -73.4099189,
+              41.577757
+            ],
+            [
+              -73.4099354,
+              41.577789
+            ],
+            [
+              -73.4098858,
+              41.5778014
+            ],
+            [
+              -73.4098762,
+              41.5777663
+            ],
+            [
+              -73.4097176,
+              41.5777859
+            ],
+            [
+              -73.4097658,
+              41.5779499
+            ],
+            [
+              -73.4099217,
+              41.5779303
+            ],
+            [
+              -73.4099092,
+              41.5778901
+            ],
+            [
+              -73.4099368,
+              41.5778849
+            ],
+            [
+              -73.4099161,
+              41.5778509
+            ],
+            [
+              -73.4099644,
+              41.5778375
+            ],
+            [
+              -73.4100223,
+              41.5779179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/286301155",
+      "properties": {
+        "@id": "way/286301155",
+        "addr:city": "Newtown",
+        "addr:housenumber": "3",
+        "addr:state": "CT",
+        "addr:street": "Primrose Street",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Town of Newtown Town Hall",
+        "operator": "Town of Newtown"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.2854394,
+              41.401505
+            ],
+            [
+              -73.2855774,
+              41.4013295
+            ],
+            [
+              -73.2855088,
+              41.4012991
+            ],
+            [
+              -73.2852144,
+              41.401169
+            ],
+            [
+              -73.2852202,
+              41.4011616
+            ],
+            [
+              -73.2854373,
+              41.4008854
+            ],
+            [
+              -73.285448,
+              41.4008717
+            ],
+            [
+              -73.2857511,
+              41.4010057
+            ],
+            [
+              -73.2857875,
+              41.4010219
+            ],
+            [
+              -73.2859128,
+              41.4008625
+            ],
+            [
+              -73.285538,
+              41.4006968
+            ],
+            [
+              -73.2855606,
+              41.400668
+            ],
+            [
+              -73.2854908,
+              41.4006372
+            ],
+            [
+              -73.2854102,
+              41.4006016
+            ],
+            [
+              -73.2853869,
+              41.4006313
+            ],
+            [
+              -73.2852042,
+              41.4005507
+            ],
+            [
+              -73.2850845,
+              41.4007033
+            ],
+            [
+              -73.2852559,
+              41.4007789
+            ],
+            [
+              -73.2851684,
+              41.4008862
+            ],
+            [
+              -73.2850505,
+              41.4008354
+            ],
+            [
+              -73.2849746,
+              41.4009317
+            ],
+            [
+              -73.2850936,
+              41.4009859
+            ],
+            [
+              -73.285013,
+              41.4010888
+            ],
+            [
+              -73.2848337,
+              41.4010097
+            ],
+            [
+              -73.2847647,
+              41.4010977
+            ],
+            [
+              -73.2847037,
+              41.4011755
+            ],
+            [
+              -73.2848764,
+              41.4012517
+            ],
+            [
+              -73.2848413,
+              41.4012964
+            ],
+            [
+              -73.2849506,
+              41.4013447
+            ],
+            [
+              -73.2850556,
+              41.401391
+            ],
+            [
+              -73.2850881,
+              41.4013497
+            ],
+            [
+              -73.2854394,
+              41.401505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/304981723",
+      "properties": {
+        "@id": "way/304981723",
+        "amenity": "townhall",
+        "building": "civic",
+        "building:colour": "red",
+        "building:material": "brick",
+        "name": "Town of Lloyd Town Hall",
+        "roof:colour": "black",
+        "roof:shape": "gabled"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9656089,
+              41.7193247
+            ],
+            [
+              -73.9658057,
+              41.7194043
+            ],
+            [
+              -73.9659187,
+              41.7192475
+            ],
+            [
+              -73.9657218,
+              41.7191679
+            ],
+            [
+              -73.9656089,
+              41.7193247
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/310233874",
+      "properties": {
+        "@id": "way/310233874",
+        "addr:city": "Red Hook",
+        "addr:housenumber": "7467",
+        "addr:postcode": "12571",
+        "addr:state": "NY",
+        "addr:street": "South Broadway",
+        "amenity": "townhall",
+        "building": "civic",
+        "building:levels": "3",
+        "name": "Red Hook Village Building"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8768215,
+              41.994421
+            ],
+            [
+              -73.8768884,
+              41.994344
+            ],
+            [
+              -73.8767923,
+              41.9942979
+            ],
+            [
+              -73.8767823,
+              41.9943095
+            ],
+            [
+              -73.8766446,
+              41.9942434
+            ],
+            [
+              -73.876673,
+              41.9942107
+            ],
+            [
+              -73.8766376,
+              41.9941937
+            ],
+            [
+              -73.8766251,
+              41.9942081
+            ],
+            [
+              -73.8765978,
+              41.994195
+            ],
+            [
+              -73.8765162,
+              41.9942889
+            ],
+            [
+              -73.8767829,
+              41.994417
+            ],
+            [
+              -73.8767918,
+              41.9944067
+            ],
+            [
+              -73.8768215,
+              41.994421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/314954655",
+      "properties": {
+        "@id": "way/314954655",
+        "addr:city": "Poughkeepsie",
+        "addr:housenumber": "62",
+        "addr:postcode": "12601",
+        "addr:state": "NY",
+        "addr:street": "Civic Center Plaza",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Poughkeepsie City Hall",
+        "phone": "(845) 451-4200",
+        "townhall:type": "city",
+        "website": "http://www.cityofpoughkeepsie.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9291157,
+              41.7063627
+            ],
+            [
+              -73.9288418,
+              41.7063033
+            ],
+            [
+              -73.9287338,
+              41.7065727
+            ],
+            [
+              -73.9285924,
+              41.7065437
+            ],
+            [
+              -73.9286244,
+              41.7064567
+            ],
+            [
+              -73.9283054,
+              41.7063876
+            ],
+            [
+              -73.9282074,
+              41.7066397
+            ],
+            [
+              -73.9284933,
+              41.7067017
+            ],
+            [
+              -73.9285395,
+              41.7067117
+            ],
+            [
+              -73.9285669,
+              41.7066397
+            ],
+            [
+              -73.9286927,
+              41.7066665
+            ],
+            [
+              -73.9286446,
+              41.7067924
+            ],
+            [
+              -73.9286719,
+              41.7067983
+            ],
+            [
+              -73.928925,
+              41.7068532
+            ],
+            [
+              -73.9291157,
+              41.7063627
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/318081367",
+      "properties": {
+        "@id": "way/318081367",
+        "addr:city": "Red Hook",
+        "addr:housenumber": "7340",
+        "addr:postcode": "12571",
+        "addr:state": "NY",
+        "addr:street": "South Broadway",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Red Hook Town Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8808958,
+              41.9871359
+            ],
+            [
+              -73.8808633,
+              41.9871311
+            ],
+            [
+              -73.8808714,
+              41.9871012
+            ],
+            [
+              -73.880823,
+              41.987094
+            ],
+            [
+              -73.8808148,
+              41.9871241
+            ],
+            [
+              -73.8805503,
+              41.9870845
+            ],
+            [
+              -73.8805253,
+              41.9871766
+            ],
+            [
+              -73.8806823,
+              41.9872001
+            ],
+            [
+              -73.8806461,
+              41.9873339
+            ],
+            [
+              -73.8808346,
+              41.9873621
+            ],
+            [
+              -73.8808958,
+              41.9871359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/320515296",
+      "properties": {
+        "@id": "way/320515296",
+        "addr:city": "Rhinebeck",
+        "addr:housenumber": "80",
+        "addr:postcode": "12572",
+        "addr:street": "East Market Street",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Rhinebeck Town Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9092362,
+              41.926903
+            ],
+            [
+              -73.9092252,
+              41.9267928
+            ],
+            [
+              -73.9091688,
+              41.9267959
+            ],
+            [
+              -73.9091631,
+              41.9267384
+            ],
+            [
+              -73.908891,
+              41.9267534
+            ],
+            [
+              -73.9088943,
+              41.9267861
+            ],
+            [
+              -73.9088479,
+              41.9267886
+            ],
+            [
+              -73.9088613,
+              41.9269236
+            ],
+            [
+              -73.9089471,
+              41.9269188
+            ],
+            [
+              -73.9089463,
+              41.92691
+            ],
+            [
+              -73.9091521,
+              41.9268987
+            ],
+            [
+              -73.909153,
+              41.9269075
+            ],
+            [
+              -73.9092362,
+              41.926903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/328244192",
+      "properties": {
+        "@id": "way/328244192",
+        "amenity": "townhall",
+        "building": "yes",
+        "gnis:feature_id": "2093290",
+        "name": "Newburgh City Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0101352,
+              41.4997801
+            ],
+            [
+              -74.0101723,
+              41.4994877
+            ],
+            [
+              -74.0101236,
+              41.4994843
+            ],
+            [
+              -74.0101199,
+              41.4995136
+            ],
+            [
+              -74.0100787,
+              41.4995107
+            ],
+            [
+              -74.0100747,
+              41.4995425
+            ],
+            [
+              -74.0099702,
+              41.499535
+            ],
+            [
+              -74.0099409,
+              41.4997663
+            ],
+            [
+              -74.0101352,
+              41.4997801
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/385036709",
+      "properties": {
+        "@id": "way/385036709",
+        "addr:city": "Woodstock",
+        "addr:postcode": "12498",
+        "addr:state": "ME",
+        "addr:street": "Tinker Street",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Woodstock Town Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1214258,
+              42.0404785
+            ],
+            [
+              -74.1213903,
+              42.0404797
+            ],
+            [
+              -74.1213911,
+              42.0404608
+            ],
+            [
+              -74.1213056,
+              42.0404659
+            ],
+            [
+              -74.1213064,
+              42.0404871
+            ],
+            [
+              -74.1212609,
+              42.0404894
+            ],
+            [
+              -74.121264,
+              42.040558
+            ],
+            [
+              -74.1212763,
+              42.040558
+            ],
+            [
+              -74.1212794,
+              42.0405838
+            ],
+            [
+              -74.1213387,
+              42.0405804
+            ],
+            [
+              -74.1213541,
+              42.0407365
+            ],
+            [
+              -74.1214643,
+              42.0407348
+            ],
+            [
+              -74.1214258,
+              42.0404785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/391119371",
+      "properties": {
+        "@id": "way/391119371",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Torrington City Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.1210892,
+              41.8030346
+            ],
+            [
+              -73.1207749,
+              41.8030329
+            ],
+            [
+              -73.1207138,
+              41.8030325
+            ],
+            [
+              -73.1207128,
+              41.8031304
+            ],
+            [
+              -73.1207739,
+              41.8031307
+            ],
+            [
+              -73.1207719,
+              41.8033332
+            ],
+            [
+              -73.1207352,
+              41.803333
+            ],
+            [
+              -73.1207336,
+              41.8034884
+            ],
+            [
+              -73.1210847,
+              41.8034722
+            ],
+            [
+              -73.1210862,
+              41.8033212
+            ],
+            [
+              -73.1211117,
+              41.8033214
+            ],
+            [
+              -73.1211131,
+              41.8031827
+            ],
+            [
+              -73.1210877,
+              41.8031826
+            ],
+            [
+              -73.1210892,
+              41.8030346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584240",
+      "properties": {
+        "@id": "node/257584240",
+        "address": "3 Silver Brook Rd, Sandisfield MA 01255",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "created_by": "JOSM",
+        "name": "Sanisfield Old Town Hall",
+        "source": "MEMA",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0969516,
+          42.1011059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584296",
+      "properties": {
+        "@id": "node/257584296",
+        "address": "66 Sandisfield Rd, Sandisfield MA 01255",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "created_by": "JOSM",
+        "name": "Sandisfield New Town Hall Annex",
+        "source": "MEMA",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1174601,
+          42.1125819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584311",
+      "properties": {
+        "@id": "node/257584311",
+        "addr:city": "Monterey",
+        "addr:housenumber": "435",
+        "addr:postcode": "01245",
+        "addr:street": "Main Road",
+        "amenity": "townhall",
+        "gnis:feature_id": "1978836",
+        "name": "Monterey Town Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2137768,
+          42.1796751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584324",
+      "properties": {
+        "@id": "node/257584324",
+        "address": "Rte 71, Egremont MA 01258",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "created_by": "JOSM",
+        "name": "Egremont Town Hall",
+        "source": "BRPC",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4281178,
+          42.1908708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584358",
+      "properties": {
+        "@id": "node/257584358",
+        "address": "21 Depot Sq., Sheffield MA 01257",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "name": "Sheffield Town Hall",
+        "source": "MEMA",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3537661,
+          42.110613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584466",
+      "properties": {
+        "@id": "node/257584466",
+        "address": "334 Main St., Great Barrington MA 01230",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "name": "Great Barrington Town Hall",
+        "source": "MEMA",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3637411,
+          42.1937959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584577",
+      "properties": {
+        "@id": "node/257584577",
+        "address": "807 Mill River Southfield Rd, New Marlborough MA 01230",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "name": "New Marlborough Town Hall",
+        "source": "BRPC",
+        "source:url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2664348,
+          42.1127579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584585",
+      "properties": {
+        "@id": "node/257584585",
+        "address": "118 East Street, Mount Washington MA 01258",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "created_by": "JOSM",
+        "name": "Mount Washington Town Hall",
+        "source": "BRPC",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4532495,
+          42.099732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257584603",
+      "properties": {
+        "@id": "node/257584603",
+        "address": "One North Main Rd., Otis MA 01253",
+        "amenity": "townhall",
+        "attribution": "Office of Geographic and Environmental Information (MassGIS), Massachusetts Emergency Management Agency (MEMA)",
+        "created_by": "JOSM",
+        "name": "Otis Town Hall",
+        "source": "MEMA",
+        "source_url": "http://mass.gov/mgis/townhalls.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0933349,
+          42.1927297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367138978",
+      "properties": {
+        "@id": "node/367138978",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "113",
+        "gnis:county_name": "New Haven",
+        "gnis:feature_id": "1932576",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Oxford Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1203879,
+          41.4378742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367138992",
+      "properties": {
+        "@id": "node/367138992",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "66",
+        "gnis:county_name": "New Haven",
+        "gnis:feature_id": "1932452",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Naugatuck Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0550655,
+          41.490668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367138997",
+      "properties": {
+        "@id": "node/367138997",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "166",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932334",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Roxbury Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3109147,
+          41.5607405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139003",
+      "properties": {
+        "@id": "node/367139003",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "402",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932269",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Old Goshen Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2248367,
+          41.8320401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139005",
+      "properties": {
+        "@id": "node/367139005",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "207",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932256",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "North Canaan Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3342834,
+          42.0323146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139008",
+      "properties": {
+        "@id": "node/367139008",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "85",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932230",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "New Milford Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4098432,
+          41.578428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139011",
+      "properties": {
+        "@id": "node/367139011",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "386",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932252",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Norfolk Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1967797,
+          41.9909272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139014",
+      "properties": {
+        "@id": "node/367139014",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "340",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932205",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Morris Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1990023,
+          41.6839855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139020",
+      "properties": {
+        "@id": "node/367139020",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "121",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932107",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Kent Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4720852,
+          41.7264913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139023",
+      "properties": {
+        "@id": "node/367139023",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "329",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932150",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Litchfield Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1915021,
+          41.7475968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139026",
+      "properties": {
+        "@id": "node/367139026",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "262",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932036",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Harwinton Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0700672,
+          41.7641414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139029",
+      "properties": {
+        "@id": "node/367139029",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "225",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1932038",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Harwinton Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0662192,
+          41.7659307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139032",
+      "properties": {
+        "@id": "node/367139032",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "356",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1931898",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Colebrook Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0959424,
+          41.99065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139035",
+      "properties": {
+        "@id": "node/367139035",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "216",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1931911",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Cornwall Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3298405,
+          41.8423169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139038",
+      "properties": {
+        "@id": "node/367139038",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "257",
+        "gnis:county_name": "Litchfield",
+        "gnis:feature_id": "1931799",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Bethlehem Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2093918,
+          41.6371535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139140",
+      "properties": {
+        "@id": "node/367139140",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "199",
+        "gnis:county_name": "Fairfield",
+        "gnis:feature_id": "1942510",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Monroe Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2067802,
+          41.3331518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367139146",
+      "properties": {
+        "@id": "node/367139146",
+        "addr:state": "CT",
+        "amenity": "townhall",
+        "ele": "187",
+        "gnis:county_name": "Fairfield",
+        "gnis:feature_id": "1942543",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "New Fairfield Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4870196,
+          41.4654995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367779763",
+      "properties": {
+        "@id": "node/367779763",
+        "addr:state": "MA",
+        "amenity": "townhall",
+        "ele": "443",
+        "gnis:county_name": "Berkshire",
+        "gnis:feature_id": "1978990",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "West New Boston Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.096774,
+          42.0845367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367779765",
+      "properties": {
+        "@id": "node/367779765",
+        "addr:state": "MA",
+        "amenity": "townhall",
+        "ele": "373",
+        "gnis:county_name": "Berkshire",
+        "gnis:feature_id": "1978874",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Otis Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0917715,
+          42.193423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367779768",
+      "properties": {
+        "@id": "node/367779768",
+        "addr:state": "MA",
+        "amenity": "townhall",
+        "ele": "252",
+        "gnis:county_name": "Berkshire",
+        "gnis:feature_id": "1978830",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Mill River Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2690007,
+          42.1156465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368052240",
+      "properties": {
+        "@id": "node/368052240",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "ele": "84",
+        "gnis:county_name": "Westchester",
+        "gnis:feature_id": "2059964",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Somers Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6858068,
+          41.3283159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368052291",
+      "properties": {
+        "@id": "node/368052291",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "ele": "71",
+        "gnis:county_name": "Orange",
+        "gnis:feature_id": "2095557",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Cornwall Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0284174,
+          41.4389776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368052303",
+      "properties": {
+        "@id": "node/368052303",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "ele": "169",
+        "gnis:county_name": "Orange",
+        "gnis:feature_id": "2095037",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Middletown City Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4216667,
+          41.4455556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368052455",
+      "properties": {
+        "@id": "node/368052455",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "ele": "174",
+        "gnis:county_name": "Dutchess",
+        "gnis:feature_id": "2493624",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Washington Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6936111,
+          41.7861111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368052464",
+      "properties": {
+        "@id": "node/368052464",
+        "addr:state": "NY",
+        "amenity": "townhall",
+        "ele": "42",
+        "gnis:county_name": "Dutchess",
+        "gnis:feature_id": "2454167",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Wappinger Town Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9183333,
+          41.5852778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1646283367",
+      "properties": {
+        "@id": "node/1646283367",
+        "addr:housenumber": "100",
+        "addr:street": "Pocono Road",
+        "amenity": "townhall",
+        "name": "Brookfield Town Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3989094,
+          41.4662241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1708389515",
+      "properties": {
+        "@id": "node/1708389515",
+        "addr:housename": "Hyde Park Town Hall",
+        "addr:housenumber": "4383",
+        "addr:postcode": "12538",
+        "addr:street": "Albany Post Road",
+        "amenity": "townhall",
+        "designation": "Hyde Park Town Hall",
+        "name": "Hyde Park Town Hall",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9362457,
+          41.7905579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1925912551",
+      "properties": {
+        "@id": "node/1925912551",
+        "addr:city": "Wappingers Falls",
+        "addr:housename": "Village Hall",
+        "addr:housenumber": "2582",
+        "addr:postcode": "12590",
+        "addr:street": "South Avenue",
+        "amenity": "townhall",
+        "name": "Village Hall",
+        "phone": "845-297-8773",
+        "website": "http://www.wappingersfallsny.gov/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9187145,
+          41.5938426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1977340328",
+      "properties": {
+        "@id": "node/1977340328",
+        "amenity": "townhall",
+        "name": "Town Offices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0753723,
+          41.6727745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2875397064",
+      "properties": {
+        "@id": "node/2875397064",
+        "amenity": "townhall",
+        "name": "Chester Town Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2756869,
+          41.3398822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2875398564",
+      "properties": {
+        "@id": "node/2875398564",
+        "amenity": "townhall",
+        "name": "Goshen Town Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3170317,
+          41.4054722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3074087982",
+      "properties": {
+        "@id": "node/3074087982",
+        "amenity": "townhall",
+        "name": "East Fishkill Town Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8067895,
+          41.5733843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3251117238",
+      "properties": {
+        "@id": "node/3251117238",
+        "addr:city": "LaGrangeville",
+        "addr:housenumber": "120",
+        "addr:postcode": "12540",
+        "addr:state": "NY",
+        "addr:street": "Stringham Road",
+        "amenity": "townhall",
+        "name": "LaGrange Town Hall",
+        "phone": "(845) 452-1830",
+        "website": "http://www.lagrangeny.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7965038,
+          41.6619167
+        ]
+      }
+    }
+  ]
+}
