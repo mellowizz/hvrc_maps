@@ -1,10 +1,17 @@
 This is a collection of maps of the Mid Hudson Region.
 
 These maps are made with freely available data and contain no warranty as to
-their accuracy. The Rockland folder contains
-data from the Rockland GIS located at:
-https://geopower.jws.com/rockland/DataPage.jsp#
+their accuracy. 
+
+All folders contain data from the respective county's GIS freely available data.
+Data has been converted to different file formats to reduce bandwidth and take
+advantage of more features over Esri's Shapefile format.
 
 Special thanks to Anita Graser for the QGIS styles:
 https://github.com/anitagraser/QGIS-resources
 
+Links to GIS Data
+
+Rockland:
+https://geopower.jws.com/rockland/DataPage.jsp#
+Westchester
